@@ -22,3 +22,7 @@ BOARD_ROOT_EXTRA_FOLDERS := metadata mnt
 
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
+
+TARGET_PREBUILT_KERNEL := device/teclast/t65max_a8d3/kernel/Image.gz
+BOARD_PREBUILT_DTBIMAGE_DIR := device/teclast/t65max_a8d3/kernel
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true

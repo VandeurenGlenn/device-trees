@@ -1,0 +1,11 @@
+on early-init
+    write /proc/sys/kernel/printk "7 4 1 7"
+
+on init
+    symlink /vendor /vendor
+
+on post-fs-data
+    mkdir /data/vendor 0771 system system
+
+on boot
+    setprop ro.hardware t65max_a8d3

@@ -1,0 +1,1 @@
+add_lunch_combo aosp_t65max_a8d3-userdebug
